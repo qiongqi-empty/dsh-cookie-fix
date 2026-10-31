@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cookie Fix",
+    "description": "Keeps dsh-auth-* session cookies bounded so random-port accumulation never causes an HTTP 431 startup failure."
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DSH Cookie Fix">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f7cff"/>
+      <stop offset="1" stop-color="#143b9e"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <path d="M32 10 52 18v13c0 12-8.4 19.6-20 23-11.6-3.4-20-11-20-23V18Z" fill="#ffffff" opacity="0.14"/>
+  <circle cx="32" cy="31" r="11.5" fill="#ffffff"/>
+  <circle cx="28" cy="27" r="2.2" fill="#2050d8"/>
+  <circle cx="37" cy="28.5" r="1.7" fill="#2050d8"/>
+  <circle cx="30.5" cy="36" r="1.7" fill="#2050d8"/>
+  <circle cx="38" cy="35.5" r="2.2" fill="#2050d8"/>
+  <path d="M32 43v9" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M27.4 47.6h9.2" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

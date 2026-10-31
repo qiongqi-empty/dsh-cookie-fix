@@ -1,0 +1,9 @@
+# dsh-cookie-fix bundle patch
+#
+# Inserts the Host-only cookie janitor. The package manifest declares this file
+# as `dsh.bundle.patch`, so the official DSH Plugins page installs and selects
+# this bundle automatically. Removing the bundle removes this row and restores
+# stock desktop behaviour.
+- insert:
+    - id: dsh-cookie-fix
+      name: dsh-cookie-fix

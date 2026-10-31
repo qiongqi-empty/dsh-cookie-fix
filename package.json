@@ -1,0 +1,47 @@
+{
+  "name": "dsh-cookie-fix",
+  "version": "1.0.0",
+  "description": "Bound DeepSeek Harness desktop dsh-auth-* session cookies so random-port accumulation never breaks startup with HTTP 431.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cookie",
+    "http-431"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiongqi-empty/dsh-cookie-fix.git"
+  },
+  "homepage": "https://github.com/qiongqi-empty/dsh-cookie-fix#readme",
+  "bugs": {
+    "url": "https://github.com/qiongqi-empty/dsh-cookie-fix/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  }
+}

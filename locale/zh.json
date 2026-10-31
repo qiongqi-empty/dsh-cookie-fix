@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cookie 清理器",
+    "description": "每次启动把 dsh-auth-* 会话 cookie 限制在 3 条以内，避免随机端口累积导致启动时 HTTP 431。"
+  }
+}
